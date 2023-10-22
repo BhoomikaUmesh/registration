@@ -1,8 +1,8 @@
 import React from 'react';
 const Registration = () => {
   return (
-    <div className="bg-gray-100 min-h-screen flex items-center justify-center">
-      <div className="bg-blue-200 p-3 rounded shadow-outline shadow-2xl md:w-96 lg:w-100 w-full">
+    <div className="bg-gradient-to-b from-cyan-100 to-blue-500 min-h-screen flex items-center justify-center">
+      <div className="bg-gradient-to-l from-cyan-100 to-blue-300 p-3 rounded shadow-outline shadow-2xl md:w-96 lg:w-100 w-full">
         <h2 className="text-2xl font-bold mb-4">Register</h2>
         
         <div className="mb-4">
