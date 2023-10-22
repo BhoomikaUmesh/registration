@@ -2,7 +2,7 @@ import React from 'react';
 const Registration = () => {
   return (
     <div className="bg-gradient-to-b from-cyan-100 to-blue-500 min-h-screen flex items-center justify-center">
-      <div className="bg-gradient-to-l from-cyan-100 to-blue-300 p-3 rounded shadow-outline shadow-2xl md:w-96 lg:w-100 w-full">
+      <div className="bg-gradient-to-l from-cyan-100 to-blue-100 p-3 rounded shadow-outline shadow-2xl md:w-96 lg:w-100 w-full">
         <h2 className="text-2xl font-bold mb-4">Register</h2>
         
         <div className="mb-4">
@@ -69,7 +69,7 @@ const Registration = () => {
         </div>
 
         <div className="flex items-center justify-between mt-6">
-          <button className="bg-blue-500 text-white font-bold py-2 px-4 rounded-full shadow-2xl">
+          <button className="bg-blue-500 hover:bg-cyan-600  text-white font-bold py-2 px-4 rounded-full shadow-2xl">
             Register
           </button>
         </div>
